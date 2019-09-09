@@ -1,7 +1,9 @@
 const inputCalc = document.querySelector('.account');
       resultCalc = document.querySelector('.resault');
 
-function input(i) {
+const display = document.querySelector('.calcutor .header .account')
+const resault = document.querySelector('.calcutor .header .resault')
+function output(i) {
     inputCalc.value = inputCalc.value + i
 }
 
